@@ -21,6 +21,7 @@ align-items: center;
     display: flex;
     flex: 1.5;
     gap: 3%;
+    font-size: 2rem;
 
 }
 .links > a {
@@ -65,9 +66,10 @@ color: rgba(254, 163,1,1);
 .enroll{
     background-color: black;
     color: white;
-    padding: 4%;
-    font-size: larger;
+    padding: 2%;
+    font-size: xx-large;
     border-radius: 18px;
+    
 }
 
 /* curriculum */
@@ -84,6 +86,7 @@ color: rgba(254, 163,1,1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
+    
 }
 
 .blue {
@@ -94,7 +97,115 @@ color: rgba(254, 163,1,1);
     #ffffff 45%,
     #ffffff 1100%
   );
-  border: solid #d6ffff;
+  border: 0.94px solid rgba(222, 245, 255, 1);
+  /* border: solid #d6ffff; */
+
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgba(222, 245, 255, 1) 0%,rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
   border-radius: 18px;
   padding: 15%;
+  box-shadow: #d6ffff;
+  margin: 2%;
+}
+.orange{
+   
+  box-sizing: border-box;
+border: 0.94px solid rgba(255, 244, 220, 1);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgba(255, 244, 220, 1) 0%,rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+margin: 2%;
+padding: 15%;
+}
+
+.purple{
+  box-sizing: border-box;
+border: 0.94px solid rgba(255, 244, 220, 1);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgba(238, 225, 255, 1) 0%,rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+margin: 2%;
+padding: 15%;
+}
+ .stories{
+  text-align: center;
+  background-color: antiquewhite;
+ }
+ .stories h1{
+  font-size: 37px;
+ }
+ .left{
+  background-color: orange;
+  border-radius: 90px;
+  padding: 2%;
+  color: white;
+  font-size: xx-large;
+  margin: 1%;
+  border: none;
+  margin-bottom: 2%;
+ }
+
+.storiescarts{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 5%;
+}
+
+.one{
+  grid-column: 1/ span 2;
+  grid-row: 1/ span 2;
+
+}
+.storiescart{
+  background-color: white;
+border: white;
+border-radius: 18px;
+margin: 3%;
+padding: 2;
+overflow: hidden;
+}
+.storiescart img{
+  width: 100%;
+
+}
+.footer{
+  background-color: lightblue;
+ color: white; 
+ 
+}
+.footers{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 5%;
+   gap: 5%;
+
+}
+.footers div{
+  margin: 5%;
+}
+
+.kideducation{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.aboutSchool ul {
+  list-style: none;
+}
+.aboutSchool ul li a {
+  color: white;
+text-decoration: none;
+
+}
+.aboutSchool ul li {
+  margin-top: 2%;
+}
+.kideducation div{
+  display: flex;
+
+}
+.touch img{
+ margin: 2%;
 }
